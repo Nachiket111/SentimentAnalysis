@@ -13,12 +13,12 @@ Each tweet undergoes extensive preprocessing to remove noise and improve feature
 
 Download the dataset: [Project Dataset](https://drive.google.com/file/d/1k6ocHqPYYGJu2XyuMtcNaeYXSKFWP5ol/view?usp=sharing)
 ### Dataset Columns
-- **text:** Raw tweet content  
-- **target:** Numeric sentiment label (0 = Negative, 1 = Positive)  
-- **sentiment:** Human-readable sentiment label  
-- **tweet_length:** Length of tweet text  
-- **tokens:** Tokenized text (intermediate)  
-- **stemmed_tokens:** Stemmed tokens (intermediate)
+- **target**: the polarity of the tweet (positive or negative)
+- **ids**: Unique id of the tweet
+- **date**: the date of the tweet
+- **flag**: It refers to the query. If no such query exists, then it is NO QUERY.
+- **user**: It refers to the name of the user that tweeted
+- **text**: It refers to the text of the tweet
 
 ---
 
