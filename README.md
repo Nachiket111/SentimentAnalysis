@@ -5,6 +5,8 @@ This project focuses on performing **sentiment analysis on Twitter data** using 
 
 The project demonstrates a complete NLP pipeline—from data preprocessing to feature extraction and model evaluation—using classical machine learning algorithms.
 
+[Check out the pptx](https://nachiket111.github.io/SentimentAnalysis/)
+
 ---
 
 ##  Dataset Description
